@@ -49,4 +49,4 @@ client = MongoClient(uri,
                      socketKeepAlive=True)
 
 db = client.get_default_database()
-print db.collection_names()
+print db.teste()
